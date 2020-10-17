@@ -12,7 +12,7 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 ### Usage
 ```yaml
 - name: Shields.io Endpoints
-  uses: mudlabs/shields.io.endpoints@v1.0.0
+  uses: mudlabs/shields.io.endpoint-action@v1.0.0
   with:
     badge: github-action
 ```
