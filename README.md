@@ -6,6 +6,7 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 - [Usage](#usage)
 - [Inputs](#inputs)
 - [Outputs](#outputs)
+- [Notes](#notes)
 
 
 ### Usage
