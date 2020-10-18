@@ -22,6 +22,7 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 | Input | Type | Description | Default |
 | --- | --- | --- | --- |
 | `badge` | string | The name of an available badge on this actions sister repository, [mudlabs/shieldsio][library]. | |
+| `logoColor` | string | Only used if you are specifying `bandge`. Some of the badges use named logos and some use custom svg logos. _Shields.io_ does not let you specify a color for custom logos, so we will make the change for you. | |
 | `endpoint` | JSON | Your own json endpoint for the action to create somewhere on your repo. | |
 | `path` | string | A path to where you want the new `endpoint` file located on your repo. If this path ends in a `.json` file, that will be the files name. | `./` |
 | `replaces` | string | A path to an existing endpoint file this one replaces. This file will be removed. | |
