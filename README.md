@@ -1,4 +1,4 @@
-# Shields.io Endpoints
+# Shieldsio Endpoints
 A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges.
 
 
@@ -11,8 +11,8 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 
 ### Usage
 ```yaml
-- name: Shields.io Endpoints
-  uses: mudlabs/shields.io.endpoint-action@v1.0.0
+- name: Shieldsio Endpoints
+  uses: mudlabs/shieldsio-endpoints@v1.0.0
   with:
     badge: github-action
 ```
@@ -21,7 +21,7 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 ### Inputs
 | Input | Type | Description | Default |
 | --- | --- | --- | --- |
-| `badge` | string | The name of an available badge on this actions sister repository, [mudlabs/shields.io.endpoint][library]. | |
+| `badge` | string | The name of an available badge on this actions sister repository, [mudlabs/shieldsio][library]. | |
 | `endpoint` | JSON | Your own json endpoint for the action to create somewhere on your repo. | |
 | `path` | string | A path to where you want the new `endpoint` file located on your repo. If this path ends in a `.json` file, that will be the files name. | `./` |
 | `replaces` | string | A path to an existing endpoint file this one replaces. This file will be removed. | |
@@ -41,5 +41,5 @@ A GitHub Action to retrieve or generate [Shields.io][shields.io] markdown badges
 - The Action does not commit any changes to your repository. I recomment using [Add & Commit](https://github.com/marketplace/actions/add-commit) for this.
 - This Action and its sister [repository][library] are _NOT_ products of, or affiliated with [Shields.io][shields.io]
 
-[library]: https://github.com/mudlabs/shields.io.endpoint
+[library]: https://github.com/mudlabs/shieldsio
 [shields.io]: https://shields.io/
